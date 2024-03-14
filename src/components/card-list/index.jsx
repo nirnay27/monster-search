@@ -4,19 +4,19 @@ import { Card } from "../card";
 import { useEffect, useState } from "react";
 
 export const CardList = ({ monster }) => {
-  //  const [monster,setMonster] = useState([]);
+   const [monster,setMonster] = useState([]);
 
-  //   useEffect(()=>{
-  //      fetchApi();
-  //   },[]);
+    useEffect(()=>{
+       fetchApi();
+    },[]);
 
-  //   const fetchApi = async () =>{
-  //   const apidata=  await fetch("https://jsonplaceholder.typicode.com/users");
-  //   const result = await apidata.json();
-  //   setMonster(result);
+    const fetchApi = async () =>{
+    const apidata=  await fetch("https://jsonplaceholder.typicode.com/users");
+    const result = await apidata.json();
+    setMonster(result);
 
-  // console.log(result)
-  // }
+  console.log(result)
+  }
 
   return (
     <div className="card-list">

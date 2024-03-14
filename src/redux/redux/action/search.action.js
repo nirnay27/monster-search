@@ -7,5 +7,3 @@ export const searchUser=(searchfield)=>(
         payload:searchfield //Optional
     }
 )
-
-

@@ -8,6 +8,7 @@ import { searchUser } from "../../redux/redux/action/search.action";
 import { showModal } from "../../redux/redux/action/showmodal.action";
 
 const Home = () => {
+  
   const dispatch = useDispatch();
   
   useEffect(() => {
