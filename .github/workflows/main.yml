@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubunut-latest
+    runs-on: ubunutu-latest
 
   steps: 
     - name: Checkout code
